@@ -1,0 +1,1 @@
+/*Can change the start meditation behaviour from working as a form to working as a button by using button onclick event */
