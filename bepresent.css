@@ -8,6 +8,7 @@ header {
   position: top;
 }
 
+/*Makes the title look pretty and positions it relative to the elements below it */
 h1 {
   position: relative;
   box-shadow: 0px 10px 30px #1dc2a1;
@@ -16,9 +17,10 @@ h1 {
   color: #663366;
   text-transform: uppercase;
   background-color: #D5F6F2;
-  margin-top:;
+  margin-top: ;
   margin-left: 10%;
-  margin-right: 10%; /*Liz I changed margins from 20px so they are responsive*/
+  margin-right: 10%;
+  /*Liz I changed margins from 20px so they are responsive*/
   margin-bottom: 0%;
   font-family: Tahoma;
 }
@@ -27,33 +29,29 @@ h6 {
   display: none;
 }
 
-audio {
-  display: none;
-}
-
 p {
   color: #426E63;
   text-shadow: 1px 1px #336666;
   font-family: Tahoma;
   font-size: 20px;
-}
+} 
 
-img{
+img {
   width: 242.5px;
   height: 300px;
 }
 
-.subtitle{
+.subtitle {
   margin-left: -30px;
 }
 
-.minutesText{
+.minutesText {
   font-family: Tahoma;
   color: #426E63;
   text-shadow: 1px 1px #336666;
-
 }
 
+/*Next 5 code blocks all set up the CSS for the input and controls */
 .inputsSection {
   display: flex;
   justify-content: center;
@@ -71,7 +69,6 @@ img{
   color: #fff;
   text-shadow: 2px 2px #363636;
   padding-right: 3vw;
-
 }
 
 .focusPoint {
@@ -91,7 +88,8 @@ img{
   box-shadow: 0px 10px 20px #000;
 }
 
-.start1 { 
+/*Start1 and Start2 sets the appearance and positioning for the different modes */
+.start1 {
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border: none;
@@ -100,7 +98,7 @@ img{
   font-size: 45px;
   color: #ffffff;
   border-radius: 100px;
-  padding: 30px; 
+  padding: 30px;
   background: #1dc2a1;
   text-decoration: none;
   text-align: center;
@@ -111,7 +109,7 @@ img{
   text-decoration: none;
 }
 
-.start2 { 
+.start2 {
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border: none;
@@ -131,23 +129,31 @@ img{
   text-decoration: none;
 }
 
-.top{
+.top {
   position: relative;
-  margin-top: 5%; /*from 10px */
-  margin-left: 28.5%; /*from 215px */
+  margin-top: 5%;
+  /*from 10px */
+  margin-left: 28.5%;
+  /*from 215px */
   margin-right: auto;
   z-index: 2;
 }
 
-.bottom{
+.bottom {
   position: relative;
   z-index: 1;
-  margin-left: 38.5%; /*from 425px */
-  margin-top: 3%; /*from 50px */
-
+  margin-left: 38.5%;
+  /*from 425px */
+  margin-top: 3%;
+  /*from 50px */
 }
 
-.startButton{
-  margin-left: 150px;
+.startButton {
+  margin-left: 19%; /*From 150px */
 }
 
+.countdownBox {
+  margin-top: 2%;
+  margin-left: 42.8%;
+  font-size: 30px;
+}
