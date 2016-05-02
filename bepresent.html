@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BE PRESENT</title>
+  <script src="https://code.jquery.com/jquery-2.1.4.js" type="text/javascript"></script>
+  <script src="bepresent.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="bepresent.css" type="text/css" media="screen">
+</head>
+
+<body>
+  <header>
+    <section class="title">
+      <h1>BE PRESENT</h1>
+      <p class="subtitle">Here to help you achieve greater peace of mind</p>
+      <img src="photo2.png">
+    </section>
+  </header>
+  <main>
+    <div class="focus">
+    <section class="inputsSection">
+      <div class="top">
+        <h6>User Inputs</h6>
+        <form class="focusPoint">
+          <p>To start, simply set the duration and then press the 'Focus' or 'Meditate' button.</p>
+          <div class="startButton">
+            <input type="submit" class="start1" value="Focus"> <!--remove 1, 2 if i need to -->
+            <input type="submit" class="start2" value="Meditate">
+          </div>
+        </form>
+      </section>
+    </div>
+      </div>
+      <div class="bottom">
+        <h2 class="minutesText">How many minutes of practice?</h>
+       <form class="durationInput">
+        <input type="number" class="durationControl" min="1" max="60" placeholder="minutes">
+        <input type="submit" class="set" value="Set Duration">
+        <input type="submit" class="clear" value="Clear Duration">
+      </form>
+    </div>
+    </section>
+    <section class="timerSection">
+      <h6>Timer with Audio</h6>
+      <div class="countdownBox">
+        <span id="timer"></span>
+      </div>
+
+      <!--First audio file is for focus mode, and the second is for meditate mode -->
+      <audio loop id="evereternity" src="evereternity.mp3" type="audio/mp3"></audio>
+      <audio loop id="flutemusic" src="flutemusic.mp3" type="audio/mp3"></audio> 
+    
+      <!--<audio id="chime" src="chime.mp3" type="audio/mp3"></audio> -->
+    </section>
+  </main>
+</body>
+
+</html>
