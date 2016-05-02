@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+<!--Head with script tafs for JS, jQuery, CSS -->
 <head>
   <title>BE PRESENT</title>
   <script src="https://code.jquery.com/jquery-2.1.4.js" type="text/javascript"></script>
@@ -16,7 +17,17 @@
       <img src="photo2.png">
     </section>
   </header>
-  <main>
+  <!--Timer and audio box -->
+  <section class="timerSection">
+      <div class="countdownBox">
+        <span id="timer"></span>
+      </div>
+      <!--First audio file is for focus mode, and the second is for meditate mode -->
+      <audio loop id="evereternity" src="evereternity.mp3" type="audio/mp3"></audio>
+      <audio loop id="flutemusic" src="flutemusic.mp3" type="audio/mp3"></audio> 
+    </section>
+  <main> 
+  <!--Div for Focus and Meditate mode -->
     <div class="focus">
     <section class="inputsSection">
       <div class="top">
@@ -24,13 +35,14 @@
         <form class="focusPoint">
           <p>To start, simply set the duration and then press the 'Focus' or 'Meditate' button.</p>
           <div class="startButton">
-            <input type="submit" class="start1" value="Focus"> <!--remove 1, 2 if i need to -->
+            <input type="submit" class="start1" value="Focus">
             <input type="submit" class="start2" value="Meditate">
           </div>
         </form>
       </section>
     </div>
       </div>
+      <!--Div for user input, enter how many minutes you wish to focus -->
       <div class="bottom">
         <h2 class="minutesText">How many minutes of practice?</h>
        <form class="durationInput">
@@ -39,18 +51,6 @@
         <input type="submit" class="clear" value="Clear Duration">
       </form>
     </div>
-    </section>
-    <section class="timerSection">
-      <h6>Timer with Audio</h6>
-      <div class="countdownBox">
-        <span id="timer"></span>
-      </div>
-
-      <!--First audio file is for focus mode, and the second is for meditate mode -->
-      <audio loop id="evereternity" src="evereternity.mp3" type="audio/mp3"></audio>
-      <audio loop id="flutemusic" src="flutemusic.mp3" type="audio/mp3"></audio> 
-    
-      <!--<audio id="chime" src="chime.mp3" type="audio/mp3"></audio> -->
     </section>
   </main>
 </body>
