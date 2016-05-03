@@ -1,0 +1,5 @@
+Notes: 
+
+Here is the github repo: Github: https://github.com/ChrisSchwab/meditationApp
+
+The primary file to run on Ampps is “bepresent.html”
